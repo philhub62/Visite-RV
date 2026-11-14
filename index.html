@@ -1,13 +1,13 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#2563a6"><meta name="apple-mobile-web-app-capable" content="yes"><title>Visite RV</title><link rel="manifest" href="manifest.webmanifest"><style>
 :root{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#182538;background:#f4f6fa}*{box-sizing:border-box}body{margin:0}main{max-width:740px;margin:auto;padding:18px 14px 95px}h1{color:#2563a6;text-align:center;font-size:30px;margin:18px 0}h1.visit-heading{font-size:17px;line-height:1.2;margin:8px 0 9px;font-weight:750}h2{color:#2563a6;font-size:22px;margin:6px 0 16px}h3{color:#626e7d;font-size:17px;margin:0}.card{background:white;border-radius:16px;padding:18px;margin:12px 0;box-shadow:0 2px 14px #142b4710}.row{display:flex;gap:10px;align-items:center}.row>*{min-width:0}.spread{justify-content:space-between}label{display:block;font-weight:650;font-size:14px;margin:12px 0 6px}input,textarea,select{font:inherit;width:100%;border:1px solid #cbd3dd;border-radius:9px;padding:12px;background:#fff;color:#182538}textarea{min-height:80px;resize:vertical}button,.button{font:inherit;border:0;border-radius:10px;background:#2563a6;color:white;padding:12px 15px;font-weight:650;cursor:pointer;display:inline-block;text-align:center}button.secondary{background:#e8edf4;color:#20354c}button.danger{background:#fce8e8;color:#9d2525}button:disabled{opacity:.4}button.small{padding:7px 10px;font-size:13px}.wide{width:100%}.muted{color:#687789;font-size:13px}.tabs{display:flex;gap:7px;overflow-x:auto;padding:5px 0 12px}.tabs button{white-space:nowrap;background:#e8edf4;color:#20354c;font-size:13px}.tabs button.active{background:#2563a6;color:#fff}.menu-float{position:fixed;right:18px;bottom:18px;z-index:20;box-shadow:0 3px 14px #0003}.menu-panel{position:fixed;right:12px;bottom:77px;max-height:70vh;overflow:auto;width:min(370px,calc(100vw - 24px));z-index:20;background:white;border:1px solid #cbd3dd;border-radius:14px;padding:12px;box-shadow:0 5px 35px #0004}.menu-panel button{display:block;width:100%;text-align:left;margin:4px 0;background:#eef3f9;color:#20354c}.sub-field{margin:15px 0 19px}.sub-title{font-size:16px;color:#34495f;margin:0 0 8px}.sub-field textarea{display:block;min-height:43px;height:43px;padding:9px 12px;resize:vertical}.general-area{border-top:2px solid #e2e8f0;margin-top:25px;padding-top:15px}.general-area h3{color:#2563a6}.relex-group{border-top:1px solid #dce3ec;padding:12px 0 20px}.relex-group h3{color:#33475c;font-size:18px;margin:10px 0}.observation{border:1px solid #dce3ec;border-radius:12px;padding:12px;margin:12px 0}.photos{display:flex;flex-wrap:wrap;gap:9px}.photo{width:100px;position:relative}.photo img{width:100px;height:100px;object-fit:cover;border-radius:9px}.photo button{padding:4px 6px;font-size:12px}.filebutton{position:relative;overflow:hidden;display:inline-block;background:#e8edf4;color:#20354c;border-radius:10px;padding:10px 12px;font-weight:650;font-size:14px}.filebutton input{position:absolute;inset:0;opacity:0;cursor:pointer}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.bottom{display:flex;gap:10px;margin:22px 0}.bottom button{flex:1}.visit{border:1px solid #dce3ec;border-radius:12px;padding:12px;margin:10px 0}.pill{background:#edf2f8;color:#34506c;padding:4px 9px;border-radius:99px;font-size:12px}#notice{position:fixed;bottom:10px;left:10px;right:10px;max-width:720px;margin:auto;background:#21364d;color:white;padding:10px;border-radius:9px;display:none;z-index:9}.hidden{display:none!important}@media print{body{background:white}main,.menu-float,.menu-panel{display:none!important}#printRoot{display:block!important}#printRoot{font-family:Arial,sans-serif;font-size:11pt;color:#111}#printRoot h1{color:#000;text-align:center;margin:0;line-height:1.15}#printRoot p{margin:0;line-height:1.15}#printRoot .report-photo-title{margin:0}#printRoot h2{color:#000;font-size:15pt;break-after:avoid;margin:0;line-height:1.15}#printRoot h3{color:#000;font-size:12pt;break-after:avoid;margin:1.15em 0 0;line-height:1.15}#printRoot .report-general-separator{height:1.15em}#printRoot .report-ob{margin:0;break-inside:avoid}#printRoot .report-note{white-space:pre-wrap;margin:0;line-height:1.15}#printRoot .report-pics{width:100%;table-layout:fixed;border-collapse:separate;border-spacing:0;break-inside:avoid}#printRoot .report-pics td{width:33.333%;vertical-align:top}#printRoot .report-pics img{display:block;width:100%;height:175px;object-fit:cover;break-inside:avoid}}
-button,.button,.filebutton,.tabs button,.menu-panel button{color:#000!important}h1,h2,h3,.general-area h3,.sub-title,.relex-group h3,.muted,.pill,label{color:#000!important}</style></head><body><main id="app"></main><div id="printRoot" class="hidden"></div><div id="notice"></div><script>
+button,.button,.filebutton,.tabs button,.menu-panel button{color:#000!important}h1,h2,h3,.general-area h3,.sub-title,.relex-group h3,.muted,.pill,label{color:#000!important}.fruit-inline{display:flex;align-items:center;gap:10px;margin:9px 0}.fruit-inline .sub-title{flex:0 0 46%;margin:0;font-size:14px}.fruit-inline textarea{flex:1;min-width:0;margin:0;height:43px}@media(max-width:420px){.fruit-inline .sub-title{flex-basis:48%;font-size:13px}.fruit-inline textarea{padding:8px}} </style></head><body><main id="app"></main><div id="printRoot" class="hidden"></div><div id="notice"></div><script>
 'use strict';const MAGASINS={"4":{"store":"FLIXECOURT","rs":"Mickaël Faburé"},"11":{"store":"DENAIN","rs":"Jérôme Gallet"},"14":{"store":"WALLERS","rs":"Jérôme Gallet"},"18":{"store":"AUBENCHEUL AU BAC","rs":"Patrick Deak"},"22":{"store":"COURCELLES LES LENS","rs":"Mickaël Faburé"},"24":{"store":"LIBERCOURT","rs":"Mickaël Martin"},"29":{"store":"CAMBRAI","rs":"Patrick Deak"},"32":{"store":"FENAIN","rs":"Jérôme Gallet"},"34":{"store":"LALLAING","rs":"Jérôme Gallet"},"35":{"store":"AVESNES LES AUBERT","rs":"Patrick Deak"},"44":{"store":"SAINT AMAND LES EAUX","rs":"Mickaël Martin"},"46":{"store":"WAZIERS","rs":"Mickaël Martin"},"47":{"store":"ANICHE","rs":"Jérôme Gallet"},"53":{"store":"BREBIERES","rs":"Mickaël Faburé"},"57":{"store":"SALOUEL","rs":"Perrine Dehame"},"61":{"store":"DOUAI","rs":"Mickaël Faburé"},"67":{"store":"SIN LE NOBLE","rs":"Patrick Deak"},"79":{"store":"CAMBRAI 2","rs":"Patrick Deak"},"80":{"store":"RACHES","rs":"Mickaël Martin"},"84":{"store":"ORCHIES","rs":"Mickaël Martin"},"88":{"store":"VIGNACOURT","rs":"Perrine Dehame"},"89":{"store":"DREUIL LES AMIENS","rs":"Perrine Dehame"},"92":{"store":"HAULCHIN","rs":"Jérôme Gallet"},"93":{"store":"DOUAI","rs":"Mickaël Faburé"},"96":{"store":"DOULLENS","rs":"Mickaël Faburé"},"98":{"store":"VILLERS BOCAGE","rs":"Perrine Dehame"},"100":{"store":"HENIN BEAUMONT","rs":"Mickaël Martin"},"101":{"store":"AMIENS MARIVAUX","rs":"Perrine Dehame"},"111":{"store":"PROVILLE","rs":"Patrick Deak"}};const SC=[
 {name:'Extérieur / Entrée du magasin',groups:[]},
 {name:'Administratif',groups:[['Suivi CA / VHP',['Étalon','Plan','Réel']],['Kélio S-1',['Nombre d’anomalies']],['Planning horaire',['Signature RS','Cohérence']]]},
 {name:'Plan d’action inventaire',groups:[['Groupe inventaire',['Groupe inventaire']],['Respect des procédures MDM',['Contrôle sac / achat','Observation caisse','Test PLU','État de la réserve','Contrôle des procédures du MDM par le RS']],['Respect des procédures RS',['Observation caisse RS','Contrôle caisse RS','Test PLU RS','Contrôle cabine','Test camion','Contrôle tard','Contrôle tôt','Test achat']]]},
 {name:'Suivi RELEX',groups:[['Côté bureau',['Traitement des listes RELEX','Réalisation des tours manquants','Contrôle des stocks négatifs','Contrôle des stocks Fresco','Contrôle des stocks VVP']],['Côté magasin',['Capacité rayon au max','Fiabilité des stocks','Niveau de remplissage des rayons']]]},
-{name:'Zone caisse',groups:[['Passage caisse',['Attente zone de caisse','Employé / caisse / attente','Utilisation coffre de caisse']],['Extra-présentation',['Absence de marque nationale','Volume','Balisage A5']],['Étagère de caisse',['Plan','Volume','Balisage','Présence des cartes cadeau']],['Bac de tri',['Bac de tri']],['Distributeur de tracts',['Tract présent ?','Respect de la règle ?']]]},
-{name:'Fruits et légumes',groups:[['Fraîcheur'],['Qualité du rayon'],['Niveau de remplissage']]},
+{name:'Zone caisse',groups:[['Passage caisse',['Attente zone de caisse','Employé / caisse / attente','Utilisation coffre de caisse']],['Extra-présentation',['Absence de marque nationale','Volume','Balisage A5']],['Étagère de caisse',['Plan','Volume','Balisage','Présence des cartes cadeau']],['Bac de tri',['État']],['Distributeur de tracts',['Tract présent ?','Respect de la règle ?']]]},
+{name:'Fruits et légumes',groups:[['Fruits et légumes',['Fraîcheur','Qualité du rayon','Qualité du Snacking','Niveau de remplissage']]]},
 {name:'Bake-off',groups:[['Rayon',['Présentation','Balisage','Propreté']],['Laboratoire pain',['Respect du PMS','Propreté','Plan de cuisson']]]},
 {name:"AA'S",groups:[["AA’s en magasin",['Fiabilité des prix','Niveau de remplissage','Respect du thème','Présentation générale']],["AA’s en réserve",['3 emplacements outils AA’s','Stockage AA’s thématisé']]]},
 {name:'Bons plans',groups:[['Fiabilité des prix'],['Niveau de remplissage'],['Présentation']]},
@@ -17,7 +17,7 @@ button,.button,.filebutton,.tabs button,.menu-panel button{color:#000!important}
 {name:'Cash Management',groups:[['Gestion des utilisateurs'],['Lecture des messages'],['Contrôle coffre RV'],['Clé du baby coffre sécurisée ?']]},
 {name:'Divers',groups:[['']]},
 {name:'Conclusion',groups:[['']]}];
-const $=s=>document.querySelector(s),E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const key=(a,b)=>a+'|'+(a===3?b.replace(/^Côté bureau(?= \/|$)/,'Côté administratif'):a===4?b.replace('Employé / caisse / attente','Employé / caisse'):b);let db,visits=[],current=null,section=0,sub='',screen='list',saveTimer,menuOpen=false;const uid=()=>crypto.randomUUID?crypto.randomUUID():Date.now()+'-'+Math.random();function notice(t){let n=$('#notice');n.textContent=t;n.style.display='block';setTimeout(()=>n.style.display='none',3000)}
+const $=s=>document.querySelector(s),E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const key=(a,b)=>a+'|'+(a===5&&b.startsWith('Fruits et légumes / ')&&b!=='Fruits et légumes / Qualité du Snacking'?b.slice('Fruits et légumes / '.length):a===4&&b==='Bac de tri / État'?'Bac de tri / Bac de tri':a===3?b.replace(/^Côté bureau(?= \/|$)/,'Côté administratif'):a===4?b.replace('Employé / caisse / attente','Employé / caisse'):b);let db,visits=[],current=null,section=0,sub='',screen='list',saveTimer,menuOpen=false;const uid=()=>crypto.randomUUID?crypto.randomUUID():Date.now()+'-'+Math.random();function notice(t){let n=$('#notice');n.textContent=t;n.style.display='block';setTimeout(()=>n.style.display='none',3000)}
 function openDB(){return new Promise((ok,no)=>{let q=indexedDB.open('visite-rv',1);q.onupgradeneeded=()=>q.result.createObjectStore('visits',{keyPath:'id'});q.onsuccess=()=>ok(q.result);q.onerror=()=>no(q.error)})}function all(){return new Promise((ok,no)=>{let q=db.transaction('visits').objectStore('visits').getAll();q.onsuccess=()=>ok(q.result);q.onerror=()=>no(q.error)})}function put(v){return new Promise((ok,no)=>{let q=db.transaction('visits','readwrite').objectStore('visits').put(v);q.onsuccess=ok;q.onerror=()=>no(q.error)})}function del(id){return new Promise((ok,no)=>{let q=db.transaction('visits','readwrite').objectStore('visits').delete(id);q.onsuccess=ok;q.onerror=()=>no(q.error)})}async function save(){if(!current)return;current.updated=Date.now();try{await put(current);visits=await all()}catch(e){notice('Stockage saturé ou indisponible : exporte une sauvegarde !')}}function schedule(){clearTimeout(saveTimer);saveTimer=setTimeout(save,250)}function newVisit(){current={schemaVersion:15,id:uid(),date:new Date().toISOString().slice(0,10),number:'',store:'',rs:'',status:'En cours',data:{},created:Date.now()};section=0;sub='';screen='start';render()}
 // Migration une seule fois : conserver les données indexées de la version 11 rubriques.
 function migrateVisit(v){if(!v||!v.data||v.schemaVersion>=15)return false;
@@ -96,8 +96,8 @@ if(section===7&&!current.data['7|__aa_migrated_v3']){
 }
 const groups=SC[section].groups;
 let blocks=groups.map(([title,items],gi)=>{
-let fields=items.map(item=>{let k=title+' / '+item;let arr=getObs(section,k);if(!arr.length){arr.push({id:uid(),note:'',photos:[]});schedule()}return `<div class="sub-field"><label class="sub-title" ${items.length===1&&item===title?'style="display:none"':''}>${E(item)}</label><textarea rows="1" data-admin-item="${E(k)}" placeholder="Saisir…">${E(arr[0].note)}</textarea></div>`}).join('');
-let obs=section===2&&title==='Groupe inventaire'?[]:adminObs(title);return `<div class="relex-group" data-admin-group="${gi}"><h3>${E(title)}</h3>${fields}${section===2&&title==='Groupe inventaire'?'':`<div class="general-area"><div id="admin-obs-${gi}">${obs.map((o,j)=>obHTML(o,j)).join('')}</div><button class="secondary wide" data-admin-add="${gi}">+ Ajouter des remarques et photos</button></div>`}</div>`}).join('');
+let fields=items.map(item=>{let k=title+' / '+item;let arr=getObs(section,k);if(!arr.length){arr.push({id:uid(),note:'',photos:[]});schedule()}return `<div class="sub-field${section===5?' fruit-inline':''}"><label class="sub-title" ${items.length===1&&item===title?'style="display:none"':''}>${E(item)}</label><textarea rows="1" data-admin-item="${E(k)}" placeholder="Saisir…">${E(arr[0].note)}</textarea></div>`}).join('');
+let obs=section===2&&title==='Groupe inventaire'?[]:adminObs(title);return `<div class="relex-group" data-admin-group="${gi}">${section===5?'':`<h3>${E(title)}</h3>`}${fields}${section===2&&title==='Groupe inventaire'?'':`<div class="general-area"><div id="admin-obs-${gi}">${obs.map((o,j)=>obHTML(o,j)).join('')}</div><button class="secondary wide" data-admin-add="${gi}">+ Ajouter des remarques et photos</button></div>`}</div>`}).join('');
 $('#app').innerHTML=`<div class="row spread"><button class="secondary small" id="home">Mes visites</button><span class="pill">${section+1} / ${SC.length}</span><button class="secondary small" id="export">Exporter</button></div><h1 class="visit-heading">Visite RV mag ${E(current.number||'—')}</h1><div class="card"><h2>${section+1}. ${E(SC[section].name)}</h2>${blocks}<div class="bottom"><button class="secondary" id="prev">Précédent</button><button id="next">Suivant</button></div></div>`;
 $('#home').onclick=async()=>{await save();screen='list';render()};$('#export').onclick=async()=>{await save();screen='export';render()};
 document.querySelectorAll('[data-admin-item]').forEach(t=>t.oninput=()=>{getObs(section,t.dataset.adminItem)[0].note=t.value;schedule()});
@@ -127,7 +127,7 @@ function reportBody(){
  const filled=arr=>(arr||[]).filter(o=>String(o.note||'').trim()||(o.photos||[]).length);
  function content(arr,label,kind){
   let result='';for(const o of filled(arr)){
-   const note=String(o.note||'').trim(),photos=o.photos||[];
+   const note=String(o.note||'').replace(/\r\n?/g,'\n').trim(),photos=o.photos||[];
    if(note){
     const labelMarkup=label==='__remarks__'?'<b>Remarques :</b> ':label?`<u>${E(label)}</u> : `:'';
     result+=`<div class="report-field ${kind}"><span class="report-label">${labelMarkup}</span><span class="report-value">${E(note).replace(/\n/g,'<br>')}</span></div>`;
@@ -158,7 +158,7 @@ function reportBody(){
      groupBody+=content(current.data[key(i,group)]||[],[8,9,11,12].includes(i)?group:'',[8,9,11,12].includes(i)?'report-subfield':'report-group-value');
     }
     const flat=(i===2&&group==='Groupe inventaire')||(i===10&&(group==='Contrôle des prix FDR (sondage)'||group==='Affichage fluo / vert'));
-    if(groupBody)body+=((flat||[8,9,11,12].includes(i))?'':`<h3>${E(group)}</h3>`)+groupBody;
+    if(groupBody)body+=((flat||i===5||[8,9,11,12].includes(i))?'':`<h3>${E(group)}</h3>`)+groupBody;
    }
   }
   const generalContent=content(current.data[key(i,'__general__')]||[],[0,13,14].includes(i)?'':'__remarks__',[0,13,14].includes(i)?'report-plain':'report-remark');
@@ -207,39 +207,51 @@ async function exportPDF(){
   async function drawImage(src){return new Promise(resolve=>{const img=new Image();img.onload=()=>resolve(img);img.onerror=()=>resolve(null);img.src=src})}
   page();
   const root=document.createElement('div');root.style.cssText='position:fixed;left:-99999px;top:0;width:700px;visibility:hidden';root.innerHTML=reportBody();document.body.appendChild(root);
-  async function renderElement(el){
-   if(el.matches('h1')){let title=el.textContent;const lines=wrap(title,usable,28,true);ensure(lines.length*36+30);for(const t of lines){font(28,true);ctx.fillStyle='#000';ctx.fillText(t,(W-ctx.measureText(t).width)/2,y);y+=36}y+=40}
-   else if(el.matches('h2')){
-    // Exactly two blank lines before every main heading, regardless of preceding content.
-    // At a fresh page, the top margin replaces the blank space.
-    const spacing=29;
-    if(y>margin){if(y+spacing+40>H-marginBottom)page();else y+=spacing}
-    ensure(40);textLine(el.textContent,0,28,true,'#000');y+=8;
+   const GAP=29;let previousBlock='';
+   function spaceBefore(kind){
+    // No extra space between consecutive sub-subsections.
+    const adjacent=kind==='subfield'&&previousBlock==='subfield';
+    if(previousBlock&&!adjacent&&y>margin){if(y+GAP>H-marginBottom)page();else y+=GAP}
+    previousBlock=kind;
    }
-   else if(el.matches('h3')){const gap=29;if(y>marginTop){if(y+gap+40>H-marginBottom)page();else y+=gap}ensure(40);textLine(el.textContent,38,24,true,'#000')}
-   else if(el.matches('.report-general-separator')){if(y>marginTop){if(y+29>H-marginBottom)page();else y+=29}}
-   else if(el.matches('.report-field')){
-    const label=el.querySelector('.report-label')?.textContent||'',value=el.querySelector('.report-value')?.textContent||'';
-    const indent=el.matches('.report-subfield,.report-remark')?76:el.matches('.report-group-value,.report-inline')?38:76;
-    if(el.matches('.report-remark,.report-plain')&&!el.previousElementSibling?.matches('.report-general-separator')){ensure(29);y+=29;}
-    field(label,value,indent,el.matches('.report-remark'),el.matches('.report-subfield'));
-    if(el.matches('.report-remark,.report-plain')&&!el.previousElementSibling?.matches('.report-general-separator')){ensure(29);y+=29;}
-   }
-   else if(el.matches('.report-pics')){
-    const imgs=await Promise.all([...el.querySelectorAll('img')].map(node=>drawImage(node.src)));
-    const valid=imgs.filter(Boolean),cols=3,gap=8,photoLeft=66,available=W-photoLeft*2;
-    const slot=(available-gap*2)/3;
-    for(let i=0;i<valid.length;i+=cols){
-     const batch=valid.slice(i,i+cols);const dimensions=batch.map(im=>{let scale=Math.min(slot/im.width,420/im.height);return [im.width*scale,im.height*scale]});
-     const rowH=Math.max(...dimensions.map(d=>d[1]));ensure(rowH+18);
-     batch.forEach((im,j)=>{const [w,h]=dimensions[j];ctx.drawImage(im,photoLeft+j*(slot+gap),y,w,h)});
-     y+=rowH+18;
+   function valueWithNewlines(node){
+    if(!node)return '';
+    let result='';
+    for(const child of node.childNodes){
+     if(child.nodeType===3)result+=child.nodeValue;
+     else if(child.nodeName==='BR')result+='\n';
+     else result+=valueWithNewlines(child);
     }
+    return result;
    }
-   else if(el.matches('.report-signature')){ensure(70);y+=18;textLine('RV Philippe Czarnecki',0,23,false,'#111',true)}
-   else if(el.matches('p')){textLine(el.textContent);y+=8}
-   else {for(const child of el.children)await renderElement(child)}
-  }
+   async function renderElement(el){
+    if(el.matches('h1')){let title=el.textContent;const lines=wrap(title,usable,28,true);ensure(lines.length*36+30);for(const t of lines){font(28,true);ctx.fillStyle='#000';ctx.fillText(t,(W-ctx.measureText(t).width)/2,y);y+=36}previousBlock='title'}
+    else if(el.matches('h2')){spaceBefore('section');ensure(40);textLine(el.textContent,0,28,true,'#000')}
+    else if(el.matches('h3')){spaceBefore('group');ensure(40);textLine(el.textContent,38,24,true,'#000')}
+    else if(el.matches('.report-general-separator')){/* Spacing is managed by the following content. */}
+    else if(el.matches('.report-field')){
+     const label=el.querySelector('.report-label')?.textContent||'',value=valueWithNewlines(el.querySelector('.report-value'));
+     const indent=el.matches('.report-subfield,.report-remark')?76:el.matches('.report-group-value,.report-inline')?38:76;
+     spaceBefore(el.matches('.report-subfield')?'subfield':'field');
+     field(label,value,indent,el.matches('.report-remark'),el.matches('.report-subfield'));
+    }
+    else if(el.matches('.report-pics')){
+     const imgs=await Promise.all([...el.querySelectorAll('img')].map(node=>drawImage(node.src)));
+     const valid=imgs.filter(Boolean),cols=3,gap=8,photoLeft=66,available=W-photoLeft*2;
+     if(!valid.length)return;
+     spaceBefore('photos');
+     const slot=(available-gap*2)/3;
+     for(let i=0;i<valid.length;i+=cols){
+      const batch=valid.slice(i,i+cols);const dimensions=batch.map(im=>{let scale=Math.min(slot/im.width,420/im.height);return [im.width*scale,im.height*scale]});
+      const rowH=Math.max(...dimensions.map(d=>d[1]));ensure(rowH+18);
+      batch.forEach((im,j)=>{const [w,h]=dimensions[j];ctx.drawImage(im,photoLeft+j*(slot+gap),y,w,h)});
+      y+=rowH+18;
+     }
+    }
+    else if(el.matches('.report-signature')){spaceBefore('signature');textLine('RV Philippe Czarnecki',0,23,false,'#111',true)}
+    else if(el.matches('p')){spaceBefore('paragraph');textLine(el.textContent)}
+    else {for(const child of el.children)await renderElement(child)}
+   }
   for(const el of root.children)await renderElement(el);
   root.remove();
   // Each page is a JPEG image inside a standards-compliant PDF container.
